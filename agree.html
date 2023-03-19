@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>AGREEABLENESS</title>
+	<link href="ocean_styles.css" rel="stylesheet">
+	
+</head>
+<h1>AGREEABLENESS</h1><marquee><h3>Answer each question honestly. After choosing the option, click on NEXT to add up the score.</h3></marquee>
+<h4>Agreeableness (A) reflects much individuals adjust their behavior to suit others.</h4>
+<form name="agree">
+<div><h4>I am interested in others.</h4>
+<br>
+<input type="button" value="Inappropriate" name="agree"
+onClick="document.agree.ans.value+='1'">
+<input type="button" value="Less Inappropriate" name="agree"
+onClick="document.agree.ans.value+='2'">
+<input type="button" value="Neutral" name="agree"
+onClick="document.agree.ans.value+='3'"> 
+<input type="button" value=" Less Appropriate" name="agree"
+onClick="document.agree.ans.value+='4'">
+<input type="button" value="Appropriate" name="agree"
+onClick="document.agree.ans.value+='5'">
+<br>
+<input type="reset" value="RESET">
+<input type="button" value="NEXT" required style="background-color:red"
+onClick="document.agree.ans.value+='+'">
+</div>
+<br>
+<div class="formDiv">
+<h4>I sympathise with others' feelings.</h4>
+<br>
+<input type="button" value="Inappropriate" name="agree"
+onClick="document.agree.ans.value+='1'">
+<input type="button" value="Less Inappropriate" name="agree"
+onClick="document.agree.ans.value+='2'">
+<input type="button" value="Neutral" name="agree"
+onClick="document.agree.ans.value+='3'"> 
+<input type="button" value=" Less Appropriate" name="agree"
+onClick="document.agree.ans.value+='4'">
+<input type="button" value="Appropriate" name="agree"
+onClick="document.agree.ans.value+='5'">
+<br>
+<input type="reset" value="RESET">
+<input type="button" value="NEXT" required style="background-color:red" name="agree" onClick="document.agree.ans.value+='+'">
+</div>
+<br>
+<div>
+<h4>I have a soft heart.</h4>
+<br>
+<input type="button" value="Inappropriate" name="agree"
+onClick="document.agree.ans.value+='1'">
+<input type="button" value="Less Inappropriate" name="agree"
+onClick="document.agree.ans.value+='2'">
+<input type="button" value="Neutral" name="agree"
+onClick="document.agree.ans.value+='3'"> 
+<input type="button" value=" Less Appropriate" name="agree"
+onClick="document.agree.ans.value+='4'">
+<input type="button" value="Appropriate" name="agree"
+onClick="document.agree.ans.value+='5'">
+<br>
+<input type="reset" value="RESET">
+<input type="button" value="NEXT" required style="background-color:red" name="agree"
+onClick="document.agree.ans.value+='+'">
+</div>
+<br>
+<div class="formDiv">
+<h4>I take time out for others.</h4>
+<br>
+<input type="button" value="Inappropriate" name="agree"
+onClick="document.agree.ans.value+='1'">
+<input type="button" value="Less Inappropriate" name="agree"
+onClick="document.agree.ans.value+='2'">
+<input type="button" value="Neutral" name="agree"
+onClick="document.agree.ans.value+='3'"> 
+<input type="button" value=" Less Appropriate" name="agree"
+onClick="document.agree.ans.value+='4'">
+<input type="button" value="Appropriate" name="agree"
+onClick="document.agree.ans.value+='5'">
+<br>
+<input type="reset" value="RESET">
+
+<input type="button" value="NEXT" required style="background-color:red" name="agree"
+onClick="document.agree.ans.value+='+'">
+</div>
+<br>
+<div>
+<h4>I make people feel at ease.</h4>
+<input type="button" value="Inappropriate" name="agree"
+onClick="document.agree.ans.value+='1'">
+<input type="button" value="Less Inappropriate" name="agree"
+onClick="document.agree.ans.value+='2'">
+<input type="button" value="Neutral" name="agree"
+onClick="document.agree.ans.value+='3'"> 
+
+<input type="button" value=" Less Appropriate" name="agree"
+onClick="document.agree.ans.value+='4'">
+<input type="button" value="Appropriate" name="agree"
+onClick="document.agree.ans.value+='5'">
+<br>
+<input type="reset" value="RESET">
+<br>
+</div>
+
+<input type="button" value="OUTPUT" name="agree"
+onClick="document.agree.ans.value=eval(document.agree.ans.value)">
+
+<br><div class="formDiv"><h4>Solution </h4><input type="text" name="ans" value=""></div>
+</form>
+<table border="2">
+<tr>
+<th>SCORE</th>
+<th>INTERPRETATION</th>
+</tr>
+<tr>
+<td>Less than or equal to 12</td>
+<td>You have a tendency to be blunt and/or rude.</td>
+</tr>
+<tr>
+<td>More than 12</td>
+<td>You are polite and adjust your behaviour to suit others.</td>
+</tr>
+</table>
+<a href="neuro.html" target="_blank"><h4>NEXT</h4></a>
+<a href="home.html" target="_blank"><h4>BACK</h4></a>
+</body>
+</html>

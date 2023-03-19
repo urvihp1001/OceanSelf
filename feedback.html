@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<title>FEEDBACK</title>
+<link href="ocean_styles.css" rel="stylesheet">
+<script type="text/javascript">
+function validate()
+{
+if(document.myForm.Name.value=="")
+{
+alert("Please provide your name!")
+document.myForm.Name.focus();
+return false;
+}
+if(document.myForm.Email.value=="")
+{
+alert("Please provide your email!")
+document.myForm.Email.focus();
+return false;
+}
+
+if(document.myForm.Rate.value=="-1")
+{
+alert("Please provide your country!")
+return false;
+}
+return(true)
+}
+</script>
+<script>
+$(document).ready(function(){
+  $("input").focus(function(){
+    $(this).css("background-color", "#f09af6");
+  });
+  $("input").blur(function(){
+    $(this).css("background-color", "#eeff45");
+  });
+});
+</script>
+</head>
+<body>
+<form name="myForm" onsubmit="return(validate());">
+<h4>NAME:</h4>
+<input type="text" name="Name" align="center">
+<h4>EMAIL:</h4>
+<input type="text" name="Email" align="center">
+
+<h4>HOW WAS YOUR EXPERIENCE WITH THE SITE?</h4>
+<select name="Rate">
+<option value="-1" selected>[choose yours]</option>
+<option value="1">*****</option>
+<option value="2">****</option>
+<option value="3">***</option>
+<option value="4">**</option>
+<option value="5"><img src="star.jpg"></option>
+</select>
+<br><br>
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>

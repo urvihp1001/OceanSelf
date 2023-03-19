@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>NEUROTICISM</title>
+	<link href="ocean_styles.css" rel="stylesheet">
+	
+</head>
+<h1>NEUROTICISM</h1><marquee><h3>Answer each question honestly. After choosing the option, click on NEXT to add up the score.</h3></marquee>
+<h4>Neuroticism (N) is the personality trait of being emotional.</h4>
+<form name="neuro">
+<div><h4>I am the relaxed most of the time.</h4>
+<br>
+<input type="button" value="Inappropriate" name="neuro"
+onClick="document.neuro.ans.value+='1'">
+<input type="button" value="Less Inappropriate" name="neuro"
+onClick="document.neuro.ans.value+='2'">
+<input type="button" value="Neutral" name="neuro"
+onClick="document.neuro.ans.value+='3'"> 
+<input type="button" value=" Less Appropriate" name="neuro"
+onClick="document.neuro.ans.value+='4'">
+<input type="button" value="Appropriate" name="neuro"
+onClick="document.neuro.ans.value+='5'">
+<br>
+<input type="reset" value="RESET">
+<input type="button" value="NEXT" required style="background-color:red"
+onClick="document.neuro.ans.value+='+'">
+</div>
+<br>
+<div class="formDiv">
+<h4>I seldom feel blue.</h4>
+<br>
+<input type="button" value="Inappropriate" name="neuro"
+onClick="document.neuro.ans.value+='1'">
+<input type="button" value="Less Inappropriate" name="neuro"
+onClick="document.neuro.ans.value+='2'">
+<input type="button" value="Neutral" name="neuro"
+onClick="document.neuro.ans.value+='3'"> 
+<input type="button" value=" Less Appropriate" name="neuro"
+onClick="document.neuro.ans.value+='4'">
+<input type="button" value="Appropriate" name="neuro"
+onClick="document.neuro.ans.value+='5'">
+<br>
+<input type="reset" value="RESET">
+<input type="button" value="NEXT" required style="background-color:red" name="neuro" onClick="document.neuro.ans.value+='+'">
+</div>
+<br>
+<div>
+<h4>I donot get upset easily.</h4>
+<br>
+<input type="button" value="Inappropriate" name="neuro"
+onClick="document.neuro.ans.value+='1'">
+<input type="button" value="Less Inappropriate" name="neuro"
+onClick="document.neuro.ans.value+='2'">
+<input type="button" value="Neutral" name="neuro"
+onClick="document.neuro.ans.value+='3'"> 
+<input type="button" value=" Less Appropriate" name="neuro"
+onClick="document.neuro.ans.value+='4'">
+<input type="button" value="Appropriate" name="neuro"
+onClick="document.neuro.ans.value+='5'">
+<br>
+<input type="reset" value="RESET">
+<input type="button" value="NEXT" required style="background-color:red" name="neuro"
+onClick="document.neuro.ans.value+='+'">
+</div>
+<br>
+<div class="formDiv">
+<h4>I donot get mood swings frequently.</h4>
+<br>
+<input type="button" value="Inappropriate" name="neuro"
+onClick="document.neuro.ans.value+='1'">
+<input type="button" value="Less Inappropriate" name="neuro"
+onClick="document.neuro.ans.value+='2'">
+<input type="button" value="Neutral" name="neuro"
+onClick="document.neuro.ans.value+='3'"> 
+<input type="button" value=" Less Appropriate" name="neuro"
+onClick="document.neuro.ans.value+='4'">
+<input type="button" value="Appropriate" name="neuro"
+onClick="document.neuro.ans.value+='5'">
+<br>
+<input type="reset" value="RESET">
+
+<input type="button" value="NEXT" required style="background-color:red" name="neuro"
+onClick="document.neuro.ans.value+='+'">
+</div>
+<br>
+<div>
+<h4>I am usually happy.</h4>
+<input type="button" value="Inappropriate" name="neuro"
+onClick="document.neuro.ans.value+='1'">
+<input type="button" value="Less Inappropriate" name="neuro"
+onClick="document.neuro.ans.value+='2'">
+<input type="button" value="Neutral" name="neuro"
+onClick="document.neuro.ans.value+='3'"> 
+
+<input type="button" value=" Less Appropriate" name="neuro"
+onClick="document.neuro.ans.value+='4'">
+<input type="button" value="Appropriate" name="neuro"
+onClick="document.neuro.ans.value+='5'">
+<br>
+<input type="reset" value="RESET">
+<br>
+</div>
+
+<input type="button" value="OUTPUT" name="neuro" style="background-color:orange"
+onClick="document.neuro.ans.value=eval(document.neuro.ans.value)">
+
+<br><div class="formDiv"><h4>Solution </h4><input type="text" name="ans" value=""></div>
+</form>
+<table border="2">
+<tr>
+<th>SCORE</th>
+<th>INTERPRETATION</th>
+</tr>
+<tr>
+<td>Less than or equal to 12</td>
+<td>You are not very emotional.</td>
+</tr>
+<tr>
+<td>More than 12</td>
+<td>You tend to be emotional.</td>
+</tr>
+</table>
+<a href="home.html" target="_blank"><h4>BACK</h4></a>
+</body>
+</html>

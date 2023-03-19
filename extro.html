@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>EXTROVERSION</title>
+	<link href="ocean_styles.css" rel="stylesheet">
+	
+</head>
+<h1>EXTROVERSION</h1><marquee><h3>Answer each question honestly. After choosing the option, click on NEXT to add up the score.</h3></marquee>
+<h4>Extroversion (E) is the personality trait of seeking fulfillment from sources outside the self or
+in community.</h4>
+<form name="extro">
+<div><h4>I am the life of the party.</h4>
+<br>
+<input type="button" value="Inappropriate" name="extro"
+onClick="document.extro.ans.value+='1'">
+<input type="button" value="Less Inappropriate" name="extro"
+onClick="document.extro.ans.value+='2'">
+<input type="button" value="Neutral" name="extro"
+onClick="document.extro.ans.value+='3'"> 
+<input type="button" value=" Less Appropriate" name="extro"
+onClick="document.extro.ans.value+='4'">
+<input type="button" value="Appropriate" name="extro"
+onClick="document.extro.ans.value+='5'">
+<br>
+<input type="reset" value="RESET">
+<input type="button" value="NEXT" required style="background-color:red"
+onClick="document.extro.ans.value+='+'">
+</div>
+<br>
+<div class="formDiv">
+<h4>I feel comfortable around people.</h4>
+<br>
+<input type="button" value="Inappropriate" name="extro"
+onClick="document.extro.ans.value+='1'">
+<input type="button" value="Less Inappropriate" name="extro"
+onClick="document.extro.ans.value+='2'">
+<input type="button" value="Neutral" name="extro"
+onClick="document.extro.ans.value+='3'"> 
+<input type="button" value=" Less Appropriate" name="extro"
+onClick="document.extro.ans.value+='4'">
+<input type="button" value="Appropriate" name="extro"
+onClick="document.extro.ans.value+='5'">
+<br>
+<input type="reset" value="RESET">
+<input type="button" value="NEXT" required" style="background-color:red" name="extro" onClick="document.extro.ans.value+='+'">
+</div>
+<br>
+<div>
+<h4>I start conversations.</h4>
+<br>
+<input type="button" value="Inappropriate" name="extro"
+onClick="document.extro.ans.value+='1'">
+<input type="button" value="Less Inappropriate" name="extro"
+onClick="document.extro.ans.value+='2'">
+<input type="button" value="Neutral" name="extro"
+onClick="document.extro.ans.value+='3'"> 
+<input type="button" value=" Less Appropriate" name="extro"
+onClick="document.extro.ans.value+='4'">
+<input type="button" value="Appropriate" name="extro"
+onClick="document.extro.ans.value+='5'">
+<br>
+<input type="reset" value="RESET">
+<input type="button" value="NEXT" required" style="background-color:red"name="extro"
+onClick="document.extro.ans.value+='+'">
+</div>
+<br>
+<div class="formDiv">
+<h4>I talk to lots of different people.</h4>
+<br>
+<input type="button" value="Inappropriate" name="extro"
+onClick="document.extro.ans.value+='1'">
+<input type="button" value="Less Inappropriate" name="extro"
+onClick="document.extro.ans.value+='2'">
+<input type="button" value="Neutral" name="extro"
+onClick="document.extro.ans.value+='3'"> 
+<input type="button" value=" Less Appropriate" name="extro"
+onClick="document.extro.ans.value+='4'">
+<input type="button" value="Appropriate" name="extro"
+onClick="document.extro.ans.value+='5'">
+<br>
+<input type="reset" value="RESET">
+
+<input type="button" value="NEXT" required" style="background-color:red""name="extro"
+onClick="document.extro.ans.value+='+'">
+</div>
+<br>
+<div>
+<h4>I like being center of attention.</h4>
+<input type="button" value="Inappropriate" name="extro"
+onClick="document.extro.ans.value+='1'">
+<input type="button" value="Less Inappropriate" name="extro"
+onClick="document.extro.ans.value+='2'">
+<input type="button" value="Neutral" name="extro"
+onClick="document.extro.ans.value+='3'"> 
+
+<input type="button" value=" Less Appropriate" name="extro"
+onClick="document.extro.ans.value+='4'">
+<input type="button" value="Appropriate" name="extro"
+onClick="document.extro.ans.value+='5'">
+<br>
+<input type="reset" value="RESET">
+<br>
+</div>
+
+<input type="button" value="OUTPUT" name="extro"
+onClick="document.extro.ans.value=eval(document.extro.ans.value)">
+
+<br><div class="formDiv"><h4>Solution </h4><input type="text" name="ans" value=""></div>
+</form>
+<table border="2">
+<tr>
+<th>SCORE</th>
+<th>INTERPRETATION</th>
+</tr>
+<tr>
+<td>Less than or equal to 12</td>
+<td>You are an introvert, tending to work alone.</td>
+</tr>
+<tr>
+<td>More than 12</td>
+<td>You tend to be a social butterfly.</td>
+</tr>
+</table>
+<a href="agree.html" target="_blank"><h4>NEXT</h4></a>
+<a href="home.html" target="_blank"><h4>BACK</h4></a>
+</body>
+</html>

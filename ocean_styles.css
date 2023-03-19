@@ -1,0 +1,152 @@
+body{
+	background-image:url("bckgrd.jpg");
+	
+	
+	}
+h1,h2,p
+{	text-shadow: 5px 5px 10px #ab0098;
+	text-align:center;
+	color:#450032;
+	font-size:90px;
+	font-family: Verdana;
+	
+}
+.text
+{
+
+	text-align:center;
+	color:navy;
+	font-size:45px;
+	font-family: Georgia;
+}
+.intro
+{
+
+	text-align:left;
+	color:navy;
+	font-size:27px;
+	font-family: Georgia;
+}
+
+h4
+{	
+	font-size:24px;
+	font-family:Verdana;
+	color:blue;
+	font-style:italic;
+
+}
+
+h3
+{	
+	text-align:center;
+	font-size:40px;
+	font-family: Georgia;
+	font-weight:bold;
+	color:#a90080;
+	text-shadow: 5px 5px 10px #120056;
+}
+
+div{
+	
+	padding:30px;
+	font-size:24px;
+	color:#3200be;
+	background-color:#eafeea;
+	font-family:Adobe Gothic Std;
+	align:center;
+}
+div:hover
+{
+	background:#01faff;
+	color:white;
+	border: 1px solid #eee;
+	box-shadow: 5px 5px 5px #eee;
+   	text-shadow: none;
+
+}
+.formDiv{
+	
+	border:1px;
+	padding:30px;
+	font-size:21px;
+	color:#3200be;
+	background-color:rgb(173,216,230);
+	font-family:Adobe Gothic Std;
+	align:center;
+}	
+
+input[type=button]
+{
+	 background:#006623; color:white; border-style: ; border-color:#0066a2; height:150px; width: 200px; font:bold 18px Georgia; text-shadow:none; 
+}	
+input[type=button]:hover
+{
+	background:#00a9a9;
+	color:white;
+	border: 1px solid #eee;
+	box-shadow: 5px 5px 5px #eee;
+   	text-shadow: none;
+
+}
+input[type=submit]
+{
+	 background:#006623; color:white; border-style: ; border-color:#0066a2; height:75px; width: 100px; font:bold 18px Georgia; text-shadow:none; 
+}	
+input[type=submit]:hover
+{
+	background:#00a9a9;
+	color:white;
+	border: 1px solid #eee;
+	box-shadow: 1px 1px 1px #eee;
+   	text-shadow: none;
+
+}
+input[type=reset]
+{
+	 background:#0066a2; color:white; border-style: ; border-color:#0066a2; height:150px; width: 200px; font:bold 15px Georgia; text-shadow:none; 
+}	
+input[type=reset]:hover
+{
+	background:#016abc;
+	color:white;
+	border: 1px solid #eee;
+	box-shadow: 5px 5px 5px #eee;
+   	text-shadow: none;
+
+}
+input[type=text]:focus
+{
+background-color:lightblue;
+}
+input[type="text"] {
+    box-sizing: border-box;
+    padding: 12px 18px;
+    margin: 9px;
+}
+
+table,th,td
+{
+
+border-style:ridge;
+border-color:#3200be;
+width:100%;
+background-color:#eafeea;
+border-spacing:10px;
+padding:20px;
+spacing:25px;
+text-align:center;
+color:#016a87;
+font-size:36px;
+font-family:Georgia;
+}
+table,tr,td:hover
+{
+background-color:navy;
+color:white;
+}
+marquee
+{
+scrollmount:25;
+
+}
